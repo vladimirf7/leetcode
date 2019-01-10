@@ -15,6 +15,8 @@ class Solution:
         return ''.join(result[::-1])
 
 if __name__ == '__main__':
+    print(Solution().convertToTitle(1024))
+    exit()
     assert Solution().convertToTitle(1) == 'A'
     assert Solution().convertToTitle(28) == 'AB'
     assert Solution().convertToTitle(701) == 'ZY'
